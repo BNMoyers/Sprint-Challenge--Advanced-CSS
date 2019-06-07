@@ -4,6 +4,9 @@
 
   .intro {
 
+    img{
+      .rounded();
+    }
     h2 {
       padding: 15px;
     }
@@ -57,8 +60,17 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-        .buttonStyle(100px,100px);
+      .btn a{
+        
+        .buttonStyle(100px,30px);
+
+        
+      }
+      .btn a:hover{
+        
+          color: @btn-bg-color;
+          background-color: white;
+        
       }
     }
 

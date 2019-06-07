@@ -8,17 +8,18 @@
 
 }
 .rounded(){
-border-radius: 10px;
+border-radius: 5px;
 }
 
 .buttonStyle(@width, @height){
-    background-color: green;
+    background-color: @btn-bg-color;
     color: white;
     text-align: center;
-    border-radius: 10px;
-    font-size: 1.6rem;
+    .rounded();
+    font-size: 2rem;
     width: @width;
     height: @height;
         .useFlex(center, center);
 }
+
 
