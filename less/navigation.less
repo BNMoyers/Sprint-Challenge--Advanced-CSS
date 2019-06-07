@@ -1,1 +1,21 @@
 // Navigation code here
+
+nav{
+    max-width:1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    .useFlex(center,center);
+    flex-direction: column;
+    background-color: @nav-bg;
+    h1{
+        font-size: 4rem;
+        margin: 20px;
+    }
+    .links a{
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.6rem;
+        color: @nav-font;
+    }
+}

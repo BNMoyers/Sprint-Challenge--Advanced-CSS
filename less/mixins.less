@@ -1,19 +1,24 @@
 // Mixins Here
 
-.useFlex(@justify,@align){
+
+.useFlex(@justify, @align){
     display: flex;
     justify-content: @justify;
     align-items: @align;
+
+}
+.rounded(){
+border-radius: 10px;
 }
 
-.buttonStyle(@width,@height){
-    background-color: black;
+.buttonStyle(@width, @height){
+    background-color: green;
     color: white;
     text-align: center;
     border-radius: 10px;
     font-size: 1.6rem;
     width: @width;
     height: @height;
-        .useFlex(center,center);
+        .useFlex(center, center);
 }
 

@@ -160,6 +160,26 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F6F6F6;
+}
+nav h1 {
+  font-size: 4rem;
+  margin: 20px;
+}
+nav .links a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.6rem;
+  color: #454A59;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -211,6 +231,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: green;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home .walk .walk-img {
   width: 46%;
