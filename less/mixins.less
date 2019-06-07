@@ -1,1 +1,19 @@
 // Mixins Here
+
+.useFlex(@justify,@align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.buttonStyle(@width,@height){
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    width: @width;
+    height: @height;
+        .useFlex(center,center);
+}
+
