@@ -1,1 +1,27 @@
 // Navigation code here
+
+nav{
+    max-width:1000px;
+    width: 100%;
+    margin: 0 auto;
+   padding-bottom: 15px;
+    .useFlex(center,center);
+    flex-direction: column;
+    background-color: @nav-bg;
+    border-bottom: 1px solid @sea-shell;
+    
+    @media @phone{
+        max-width: 500px;
+    }
+    h1{
+        font-size: 4rem;
+        margin: 20px;
+    }
+    .links a{
+        text-decoration: none;
+        margin: 15px;
+        padding-bottom: 10px;
+        font-size: 1.6rem;
+        color: @nav-font;
+    }
+}

@@ -1,1 +1,25 @@
 // Mixins Here
+
+
+.useFlex(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+
+}
+.rounded(){
+border-radius: 5px;
+}
+
+.buttonStyle(@width, @height){
+    background-color: @btn-bg-color;
+    color: white;
+    text-align: center;
+    .rounded();
+    font-size: 2rem;
+    width: @width;
+    height: @height;
+        .useFlex(center, center);
+}
+
+
